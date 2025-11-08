@@ -11,3 +11,6 @@ Given a number n, we need to print its table.
 ```
 Given a positive integer n, find the sum of the first n natural numbers.
 ```
+### .
+```
+```
