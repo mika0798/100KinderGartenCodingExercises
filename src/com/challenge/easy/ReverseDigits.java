@@ -3,7 +3,7 @@ package com.challenge.easy;
 import java.util.Scanner;
 
 public class ReverseDigits {
-    static int reverseNumber = 0;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -29,6 +29,7 @@ public class ReverseDigits {
         return reversedNum;
     }
 
+    static int reverseNumber = 0;
     public static int reverse3(int number) {
        if (number == 0) {
            return reverseNumber;
