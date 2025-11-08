@@ -10,6 +10,14 @@ public class PrimeNumber {
         System.out.println("Is is number a prime number? " + isPrimeNumber3(number));
     }
 
+    /*
+    - A number is considered a prime number if it has only two divisors
+    which are 1 and itself
+    - 2 is the smallest prime number and also the only even prime number
+    - Prime numbers larger than 2 are also odd numbers
+    - Prime numbers larger than 3 (5 upwards) are in the form 6k ± 1
+     */
+
     public static boolean isPrimeNumber1(int number) {
         if (number <= 1) {
             return false;
@@ -34,14 +42,6 @@ public class PrimeNumber {
         X <= √N (X is a divisor of N)
      */
 
-    /*
-    - A number is considered a prime number if it has only two divisors
-    which are 1 and itself
-    - 2 is the smallest prime number and also the only even prime number
-    - Prime numbers larger than 2 are also odd numbers
-    - Prime numbers larger than 3 (5 upwards) are in the form 6k ± 1
-     */
-
     public static boolean isPrimeNumber2(int number) {
         if (number <= 1) {return false;}
         if (number <= 3 ) {return true;}
@@ -53,7 +53,7 @@ public class PrimeNumber {
         return true;
     }
     /*
-    In this method below, i has the form of 6k + 1, hence we have:
+    In the method below, i has the form of 6k + 1, hence we have:
         6k - 1 = (6k + 1) - 2 = i + 2
     Notice that the difference between i(s) is 6:
         k = 1, 6*1 ± 1 = 7 or 5
