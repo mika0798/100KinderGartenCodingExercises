@@ -1,9 +1,8 @@
 package com.challenge.medium;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class SquareRoot {
+public class SquareRoot1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter a number: ");
