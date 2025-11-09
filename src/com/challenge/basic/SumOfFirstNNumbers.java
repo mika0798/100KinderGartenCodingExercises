@@ -2,7 +2,7 @@ package com.challenge.basic;
 
 import java.util.Scanner;
 
-public class FirstSumOfN {
+public class SumOfFirstNNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number (n > 0): ");
