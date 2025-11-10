@@ -11,6 +11,7 @@ Given a number n, we need to print its table.
 ```
 Given a positive integer n, find the sum of the first n natural numbers.
 ```
-### .
+### 4. Sum of squares of first n natural numbers
 ```
+Given a positive integer n, we have to find the sum of squares of first n natural numbers. 
 ```

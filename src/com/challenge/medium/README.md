@@ -8,6 +8,7 @@ floor of √n.
 ```
 Given a number n, print count of numbers in the range from 1 to n having exactly 3 divisors. 
 ```
-### .
+### 3. K-th digit in 'a' raised to the power of 'b'
 ```
+Given three numbers a, b and k, find k-th digit in the result of a^b from right side
 ```
