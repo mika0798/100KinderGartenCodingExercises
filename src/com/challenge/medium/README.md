@@ -12,3 +12,4 @@ Given a number n, print count of numbers in the range from 1 to n having exactly
 ```
 Given three numbers a, b and k, find k-th digit in the result of a^b from right side
 ```
+### 4. Check if a number is palindrome
